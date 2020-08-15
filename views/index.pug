@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p A simple app that lets you upload csv files to Firestore.
+  form(action='/addcsv' method='post' enctype='multipart/form-data')
+    label(for='myfile') Select file 
+    input#photo(type='file' accept='.csv' name='selectedFile')
+    input(type='submit')

@@ -1,0 +1,6 @@
+# Ignoring dependencies
+/node_modules
+
+# Ignoring private tokens
+/config.*
+/serviceAccount.*
